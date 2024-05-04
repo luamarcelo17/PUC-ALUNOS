@@ -1,0 +1,110 @@
+create table APA3_VOOS (
+    id_voo number(4) primary key,
+    data_voo date,
+    origem varchar2(3),
+    destino varchar2(3),
+    empresa varchar(5),
+    duracao number(3),
+    num_passageiros number(3),
+    piloto varchar2(50)
+);
+
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1212, '29/12/2023', 'BSB', 'GRU', 'Azul', 90, 195, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1213, '30/09/2023', 'BSB', 'CGB', 'Azul', 50, 167, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1214, '18/10/2023', 'CGB', 'GIG', 'Gol', 122, 197, 'Sevita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1215, '14/07/2023', 'VCP', 'CGB', 'Latam', 110, 172, 'Romaine Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1216, '22/11/2023', 'VCP', 'GIG', 'Azul', 45, 190, 'Carnation Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1217, '08/04/2023', 'BSB', 'VCP', 'Latam', 92, 165, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1218, '17/09/2023', 'VCP', 'CGB', 'Latam', 119, 185, 'Niven Glaser');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1219, '12/10/2023', 'GIG', 'CNF', 'Gol', 55, 185, 'Helen Messinger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1220, '17/10/2023', 'VCP', 'GIG', 'Latam', 48, 168, 'Usagi Denny');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1221, '09/04/2023', 'GRU', 'GIG', 'Gol', 50, 173, 'Sunita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1222, '07/11/2023', 'CNF', 'GIG', 'Azul', 65, 172, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1223, '31/12/2023', 'BSB', 'VCP', 'Gol', 53, 198, 'Carlyon Gorby');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1224, '30/11/2023', 'GIG', 'CNF', 'Azul', 52, 180, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1225, '13/08/2023', 'CGB', 'GRU', 'Latam', 120, 197, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1226, '13/08/2023', 'GIG', 'BSB', 'Latam', 115, 179, 'Vinaya Justus');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1227, '20/08/2023', 'GRU', 'CNF', 'Azul', 60, 195, 'Edison Drye');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1228, '16/10/2023', 'GIG', 'VCP', 'Azul', 50, 191, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1229, '17/04/2023', 'VCP', 'CNF', 'Azul', 50, 172, 'Carnation Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1230, '01/10/2023', 'GRU', 'CGB', 'Latam', 118, 192, 'Usagi Denny');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1231, '07/05/2023', 'GRU', 'CGB', 'Latam', 119, 185, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1232, '31/10/2023', 'CGB', 'CNF', 'Gol', 110, 170, 'Helen Messinger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1233, '30/09/2023', 'VCP', 'BSB', 'Latam', 62, 192, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1234, '29/07/2023', 'GRU', 'CNF', 'Azul', 45, 195, 'Niven Glaser');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1235, '18/04/2023', 'BSB', 'CNF', 'Latam', 100, 162, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1236, '10/04/2023', 'BSB', 'GIG', 'Gol', 115, 182, 'Carlyon Gorby');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1237, '08/09/2023', 'CNF', 'CGB', 'Azul', 120, 167, 'Ruthie Coco');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1238, '10/08/2023', 'GRU', 'CGB', 'Azul', 125, 168, 'Vinaya Justus');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1239, '28/10/2023', 'GIG', 'VCP', 'Latam', 55, 198, 'Mihoko Scholl');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1240, '06/09/2023', 'BSB', 'CNF', 'Gol', 121, 184, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1241, '09/07/2023', 'VCP', 'CNF', 'Gol', 60, 183, 'Sevita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1242, '04/08/2023', 'GIG', 'CNF', 'Gol', 57, 188, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1243, '02/06/2023', 'BSB', 'CNF', 'Gol', 117, 163, 'Ridgley Leo');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1244, '20/11/2023', 'BSB', 'GRU', 'Gol', 115, 171, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1245, '13/12/2023', 'CNF', 'GRU', 'Azul', 50, 191, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1246, '06/09/2023', 'GRU', 'CNF', 'Latam', 50, 171, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1247, '19/04/2023', 'CGB', 'BSB', 'Azul', 50, 172, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1248, '19/05/2023', 'GIG', 'BSB', 'Gol', 56, 191, 'Pedrog Mccurdy');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1249, '11/05/2023', 'GIG', 'CGB', 'Latam', 124, 193, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1250, '22/11/2023', 'GRU', 'CGB', 'Latam', 118, 187, 'Vinaya Justus');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1251, '21/04/2023', 'VCP', 'CNF', 'Latam', 63, 199, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1252, '07/11/2023', 'BSB', 'GIG', 'Azul', 110, 180, 'Tristan Karns');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1253, '11/04/2023', 'VCP', 'CGB', 'Azul', 121, 166, 'Carnation Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1254, '05/09/2023', 'VCP', 'CGB', 'Latam', 119, 187, 'Tristan Karns');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1255, '12/08/2023', 'GRU', 'CGB', 'Latam', 110, 200, 'Ruthie Coco');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1256, '29/07/2023', 'CNF', 'VCP', 'Azul', 59, 199, 'Ajani Harding');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1257, '16/07/2023', 'CNF', 'GRU', 'Gol', 61, 165, 'Edison Drye');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1258, '29/11/2023', 'CNF', 'GIG', 'Azul', 59, 197, 'Usagi Denny');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1259, '09/04/2023', 'CNF', 'BSB', 'Gol', 110, 174, 'Ridgley Leo');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1260, '30/11/2023', 'GRU', 'CGB', 'Gol', 120, 183, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1261, '25/10/2023', 'CGB', 'CNF', 'Azul', 105, 172, 'Ajani Harding');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1262, '23/06/2023', 'GIG', 'BSB', 'Latam', 110, 178, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1263, '10/06/2023', 'CGB', 'GRU', 'Gol', 123, 172, 'Sunita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1264, '21/11/2023', 'GRU', 'CGB', 'Azul', 119, 164, 'Carnation Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1265, '03/09/2023', 'BSB', 'VCP', 'Azul', 100, 200, 'Vinaya Justus');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1266, '12/07/2023', 'BSB', 'CGB', 'Azul', 55, 173, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1267, '22/08/2023', 'GIG', 'BSB', 'Gol', 109, 199, 'Helen Messinger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1268, '22/12/2023', 'GIG', 'VCP', 'Gol', 50, 186, 'Ridgley Leo');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1269, '05/11/2023', 'VCP', 'CNF', 'Latam', 48, 197, 'Edison Drye');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1270, '15/11/2023', 'CNF', 'GIG', 'Latam', 60, 196, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1271, '05/07/2023', 'GIG', 'BSB', 'Azul', 120, 176, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1272, '12/07/2023', 'GIG', 'CGB', 'Azul', 54, 197, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1273, '16/09/2023', 'GRU', 'GIG', 'Azul', 50, 161, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1274, '29/06/2023', 'GRU', 'CGB', 'Latam', 116, 166, 'Ridgley Leo');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1275, '18/06/2023', 'CGB', 'CNF', 'Gol', 107, 174, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1276, '28/07/2023', 'CGB', 'BSB', 'Gol', 55, 178, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1277, '07/06/2023', 'CNF', 'VCP', 'Azul', 61, 163, 'Ajani Harding');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1278, '27/09/2023', 'BSB', 'CNF', 'Azul', 100, 190, 'Edison Drye');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1279, '22/11/2023', 'GRU', 'BSB', 'Gol', 64, 168, 'Ridgley Leo');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1280, '03/10/2023', 'CGB', 'GIG', 'Gol', 123, 198, 'Sunita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1281, '04/10/2023', 'GIG', 'GRU', 'Azul', 54, 161, 'Sevita Hershberger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1282, '15/06/2023', 'VCP', 'CNF', 'Latam', 45, 191, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1283, '13/07/2023', 'GRU', 'CGB', 'Latam', 110, 190, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1284, '11/06/2023', 'BSB', 'CGB', 'Gol', 57, 173, 'Helen Messinger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1285, '15/12/2023', 'CNF', 'CGB', 'Latam', 110, 193, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1286, '11/05/2023', 'GRU', 'BSB', 'Latam', 64, 200, 'Mihoko Scholl');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1287, '22/04/2023', 'GIG', 'CNF', 'Gol', 55, 198, 'Sevita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1288, '30/07/2023', 'GRU', 'GIG', 'Azul', 55, 166, 'Usagi Denny');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1289, '01/05/2023', 'VCP', 'GIG', 'Latam', 60, 186, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1290, '09/06/2023', 'VCP', 'GIG', 'Latam', 61, 169, 'Usagi Denny');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1291, '16/12/2023', 'BSB', 'CGB', 'Latam', 59, 183, 'Pratik Skaggs');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1292, '28/09/2023', 'GIG', 'GRU', 'Latam', 50, 163, 'Ruthie Coco');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1293, '27/06/2023', 'VCP', 'CNF', 'Azul', 60, 190, 'Edison Drye');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1294, '29/08/2023', 'GIG', 'BSB', 'Azul', 110, 193, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1295, '31/07/2023', 'VCP', 'CGB', 'Gol', 119, 174, 'Sevita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1296, '31/07/2023', 'CNF', 'GIG', 'Latam', 70, 189, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1297, '24/06/2023', 'GRU', 'CGB', 'Latam', 128, 192, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1298, '18/08/2023', 'VCP', 'CGB', 'Latam', 130, 196, 'Carnation Dingman');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1299, '08/05/2023', 'VCP', 'CNF', 'Azul', 59, 172, 'Uehudah Hack');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1300, '19/10/2023', 'CNF', 'BSB', 'Azul', 70, 183, 'Niven Glaser');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1301, '03/11/2023', 'VCP', 'CNF', 'Latam', 65, 188, 'Ruthie Coco');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1302, '01/06/2023', 'VCP', 'BSB', 'Azul', 66, 186, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1303, '12/11/2023', 'CNF', 'VCP', 'Gol', 63, 191, 'Helen Messinger');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1304, '09/11/2023', 'GRU', 'GIG', 'Gol', 49, 190, 'Whitmore Squires');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1305, '30/10/2023', 'GRU', 'CNF', 'Latam', 55, 200, 'Mihoko Scholl');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1306, '26/04/2023', 'GIG', 'GRU', 'Azul', 60, 198, 'Ardath Enriquez');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1307, '21/04/2023', 'CGB', 'CNF', 'Azul', 63, 187, 'Orazio Hart');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1308, '03/11/2023', 'GRU', 'GIG', 'Gol', 50, 198, 'Sevita Poulos');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1309, '03/05/2023', 'VCP', 'CGB', 'Azul', 120, 177, 'Niven Glaser');
+INSERT INTO APA3_VOOS (id_voo, data_voo, origem, destino, empresa, duracao, num_passageiros, piloto) VALUES (1310, '28/08/2023', 'GIG', 'GRU', 'Azul', 55, 194, 'Uehudah Hack');
