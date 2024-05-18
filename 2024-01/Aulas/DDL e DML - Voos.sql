@@ -6,19 +6,21 @@ create table aero_aeroportos (
 );
 
 
+create table aero_empresas_aereas (
+  id_empresa number(3) primary key,
+  nome varchar2(20) not null
+);
+
 create table aero_pilotos (
   num_licenca varchar2(6) primary key,
   nome varchar2(50),
   CPF number(11) not null,
   nacionalidade varchar2(20),
   data_nasc date not null,
-  empresa number(3)
+  empresa number(3),
+  constraint fk_empresa_piloto FOREIGN KEY (empresa) REFERENCES aero_empresas_aereas (id_empresa)
 );
 
-create table aero_empresas_aereas (
-  id_empresa number(3) primary key,
-  nome varchar2(20) not null
-);
 
 create table aero_passageiros (
   cpf number(11) primary key,
