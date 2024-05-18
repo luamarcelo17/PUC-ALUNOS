@@ -63,30 +63,28 @@ INSERT INTO AERO_EMPRESAS_AEREAS (id_empresa, nome) VALUES (101, 'Gol');
 INSERT INTO AERO_EMPRESAS_AEREAS (id_empresa, nome) VALUES (102, 'Azul');
 INSERT INTO AERO_EMPRESAS_AEREAS (id_empresa, nome) VALUES (103, 'Latam');
 
-
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2762BR', 'Pratik Skaggs', 12123234399, 'Brasil', '10/09/1972', 106);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('5469BR', 'Sevita Poulos', 12123234400, 'Argentina', '02/10/1979', 106);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('1052BR', 'Romaine Dingman', 12123234401, 'Brasil', '23/07/1962', 105);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9961BR', 'Carnation Dingman', 12123234402, 'Brasil', '30/11/1967', 106);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('7747BR', 'Uehudah Hack', 12123234403, 'Estados Unidos', '24/11/1965', 104);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2762BR', 'Pratik Skaggs', 12123234399, 'Brasil', '10/09/1972', 103);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('5469BR', 'Sevita Poulos', 12123234400, 'Argentina', '02/10/1979', 103);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('1052BR', 'Romaine Dingman', 12123234401, 'Brasil', '23/07/1962', 102);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9961BR', 'Carnation Dingman', 12123234402, 'Brasil', '30/11/1967', 101);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('7747BR', 'Uehudah Hack', 12123234403, 'Estados Unidos', '24/11/1965', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2732BR', 'Niven Glaser', 12123234404, 'Brasil', '25/02/1970', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('1132BR', 'Helen Messinger', 12123234405, 'Brasil', '01/09/1970', 101);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('8967BR', 'Usagi Denny', 12123234406, 'Argentina', '04/10/1960', 104);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('8967BR', 'Usagi Denny', 12123234406, 'Argentina', '04/10/1960', 102;
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('8889BR', 'Sunita Poulos', 12123234407, 'Brasil', '09/07/1979', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('6096BR', 'Carlyon Gorby', 12123234408, 'Brasil', '04/06/1979', 103);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9722BR', 'Sevita Hershberger', 12123234409, 'Estados Unidos', '02/03/1970', 101);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2733BR', 'Vinaya Justus', 12123234410, 'Brasil', '13/12/1966', 106);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('5893BR', 'Edison Drye', 12123234411, 'Brasil', '06/05/1978', 104);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2733BR', 'Vinaya Justus', 12123234410, 'Brasil', '13/12/1966', 103);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('5893BR', 'Edison Drye', 12123234411, 'Brasil', '06/05/1978', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('4067BR', 'Ardath Enriquez', 12123234412, 'Estados Unidos', '27/10/1976', 101);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2572BR', 'Ruthie Coco', 12123234413, 'Brasil', '27/12/1965', 103);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9236BR', 'Mihoko Scholl', 12123234414, 'Brasil', '13/02/1965', 105);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('1565BR', 'Whitmore Squires', 12123234415, 'Brasil', '30/04/1971', 106);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9236BR', 'Mihoko Scholl', 12123234414, 'Brasil', '13/02/1965', 101);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('1565BR', 'Whitmore Squires', 12123234415, 'Brasil', '30/04/1971', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('6258BR', 'Ridgley Leo', 12123234416, 'Argentina', '07/05/1965', 101);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2516BR', 'Orazio Hart', 12123234417, 'Argentina', '17/07/1964', 104);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2516BR', 'Orazio Hart', 12123234417, 'Argentina', '17/07/1964', 102);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('2545BR', 'Pedrog Mccurdy', 12123234418, 'Brasil', '29/06/1970', 103);
-INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('4636BR', 'Tristan Karns', 12123234419, 'Brasil', '11/01/1971', 106);
+INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('4636BR', 'Tristan Karns', 12123234419, 'Brasil', '11/01/1971', 101);
 INSERT INTO AERO_PILOTOS (num_licenca, nome, cpf, nacionalidade, data_nasc, empresa) VALUES ('9707BR', 'Ajani Harding', 12123234420, 'Brasil', '19/06/1967', 103);
-
 
 INSERT INTO AERO_PASSAGEIROS (cpf, nome, data_nasc) VALUES (11122233312, 'Heloísa Lidiane Fernandes Galvão', '30/11/1999');
 INSERT INTO AERO_PASSAGEIROS (cpf, nome, data_nasc) VALUES (11122244413, 'Filipe Miguel Ferreira Neto', '05/10/2016');
